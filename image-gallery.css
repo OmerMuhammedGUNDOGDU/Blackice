@@ -1,0 +1,102 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+	font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	line-height: 135%;
+	background-color: lightgrey;
+    margin-left: auto;
+}
+
+.card
+{
+    background-color: white;
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    color: black;
+    transition-timing-function: linear;  
+    opacity: 0.6;  
+    border-radius: 5px;
+    box-shadow: 10px 5px 7px rgba(0,0,0,.15), 0px 5px 7px rgba(0,0,0,.40);
+}
+
+.card-image
+{
+    width: 100%;
+    max-height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;    
+    -webkit-transition: opacity 200ms ease; /* 200 milisaniye */
+    transition: opacity 200ms ease;
+    object-fit: cover; /* Fotoların orjinal boyutunda konumlandırılmasını sağlıyor  */
+}
+
+.card-image:hover
+{
+    opacity: 1;
+}
+
+.card:hover
+{
+    transition: 1.25s;
+    opacity: 1;
+}
+
+.card-body
+{
+    padding: 5px 10px;
+}
+
+.card-title
+{
+    margin-bottom: 15px;
+	font-size: 22px;
+}
+
+/*navbar*/
+
+#nav{
+	background-color: #333;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s linear;
+	
+}
+
+#nav li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #DD4453;
+}
+
+.container
+{
+    width: 1000px;    
+    color: black;
+    margin: 0px auto;
+}

@@ -1,0 +1,292 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;        
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 135%;
+    background-color: lightgrey;
+    margin-left: auto;
+}
+
+h2
+{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500px; /* font kalınlığı */
+}
+
+a
+{
+    text-decoration: none;    
+}
+
+li
+{
+    list-style: none;
+}
+        
+#block-post-container
+{
+    width: 70%;
+    float: left;    
+}       
+
+#other-post
+{
+    width: 30%;   
+    float: left;
+    padding-left: 20px ;      
+} 
+
+#inner-other-post
+{
+    position: fixed;
+    top: 20px;
+}
+
+#author-box
+{
+    border-top: 1px solid RGB(0,0,0,.125);
+    padding-top: 10px;    
+}
+
+#author-box a
+{
+    color: black;
+    opacity: 1;
+}
+
+#author-box a:hover
+{
+    color: rgb(247, 113, 113)(243, 115, 115);
+    opacity: 0.7;    
+}
+
+#author-box img
+{
+    border-radius: 50%;
+    float: left;
+    transition: all 0.3s;
+}
+
+#author-box img:hover
+{
+    width:95px;
+    height:85px;
+}
+
+#share a
+{
+    color: grey; 
+    text-decoration: none;
+    margin-right: 7px;      
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+#share a:hover
+{
+    opacity: 0.6;    
+    color: #da4453;
+}
+
+.container
+{
+    width: 1000px;    
+    color: black;
+    margin: 0px auto;
+}
+
+.tags ul{
+	list-style-type: none;	
+}
+
+.tags ul li{
+	margin-bottom: 10px;
+}
+
+.box
+{
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 2px  rgba(20, 23, 18, .15);
+}
+
+.block-post
+{
+    position: relative; 
+}
+
+.block-post img
+{
+    width: 100%;
+    border-radius: 3%;  
+    opacity: 1s; 
+    transition: linear;     
+}
+
+.block-post img:hover
+{
+    opacity: 0.7; 
+    cursor: pointer;
+}
+
+.date
+{
+   position: absolute; 
+   bottom: 30px;
+   right: 20px;
+   font-size: 15px;
+   color: gray; 
+   opacity: 0.6; 
+   transition: all 0.3s; 
+}
+
+.date:hover
+{
+    opacity: 1;  
+}
+
+.blog-text
+{
+    margin-top: 15px;
+    margin-bottom: 15;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    text-indent: 15px; /* satır başı*/
+}
+
+.tag
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.tags li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.tags li a
+{
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: gray;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.tags li a:hover
+{
+    opacity: 0.6;    
+    color: #da4453;
+}
+
+.author-text
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.author-text:hover
+{
+    opacity: 0.6;    
+    color: #da4453;
+    font-size: 16px;    
+}
+
+.header
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+
+.share
+{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(0,0,0,0.2);
+}
+
+.pad20
+{
+    padding: 20px;
+}
+
+.mar20
+{
+    margin-top: 20px;
+}
+
+.blog-title
+{
+    font-weight: 700;
+}
+
+.blog-title a
+{
+    color: #444;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.blog-title a:hover
+{    
+    color: #da4453;
+}
+
+/*navbar*/
+
+#nav{
+	background-color: #333;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s linear;
+	
+}
+
+#nav li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #DD4453;
+}
+

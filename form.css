@@ -1,0 +1,115 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+	line-height: 135%;
+	background-color: lightgrey;
+    margin-left: auto;
+}
+
+#block-post-container
+{
+    width: 70%;
+    float: left;    
+}
+
+.box
+{
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 2px  rgba(20, 23, 18, .15);
+}
+
+.form-group
+{
+    margin-bottom: 6px;
+}
+
+label
+{
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 220px;
+}
+
+.form-control
+{    
+    width: 30%;
+    padding: 7px 12px;
+    margin-left: 200px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.form-control:focus
+{    
+    border-color: #80bdff;
+    outline: 0px; /**/
+ 
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 6px 28%;
+    border-radius: 5px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+/*navbar*/
+
+#nav
+{
+	background-color: #333;
+}
+
+#nav ul 
+{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li 
+{
+	float: left;
+}
+
+#nav li a 
+{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s linear;
+	
+}
+
+#nav li a:hover 
+{
+	background-color: #111;
+}
+
+.active
+ {
+	background-color: #DD4453;
+}
+
+.container
+{
+    width: 1000px;    
+    color: black;
+    margin: 0px auto;
+}

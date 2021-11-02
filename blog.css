@@ -1,0 +1,126 @@
+/*
+	rgba(230, 255, 230, 0.7)
+	rgba(102, 255, 102, 0.7)
+		
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 135%;
+    background-color: lightgrey;
+    margin-left: auto;
+}
+
+/*navbar*/
+
+.container
+{
+    width: 1000px;    
+    color: black;
+    margin: 0px auto;
+}   
+
+#nav{
+	background-color: #333;
+}
+
+#nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: background-color 0.3s linear;
+	
+}
+
+#nav li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #DD4453;
+}
+
+.box
+{	
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px 2px  rgba(20, 23, 18, .15);
+}
+
+.pad20
+{
+    padding: 20px;
+}
+
+.mar20
+{
+    margin-top: 20px;
+}
+
+
+/*****************************************************/
+
+.header {
+    background-image:
+            url(blog-img/bg.jpeg);
+    height: 95vh;
+    background-size: cover; /* <RESMİ TAM OLARAK OTURTMAYA YARIYOR */
+    background-position: top;
+    clip-path: polygon(0 0,100% 0,100% 100%, 0 87%);
+    position: relative;
+}
+
+
+.heading {
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top:60%;
+    left: 52%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.heading-main {
+    display: block;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+.heading-sub {
+    display: block;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.logo-box {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.logo {
+    height: 50px;
+}
+
+

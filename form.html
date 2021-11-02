@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Menü</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+    <div id="nav">
+        <div class="container "> 
+            <ul>
+                <li><a href="home.html">
+                    <i class="fas fa-home"></i> 
+                </a></li>
+        
+                <li><a href="#">
+                    Hakkımızda
+                </a></li>
+        
+                <li><a href="#">
+                    İnovasyon
+                </a></li>
+
+                <li><a href="image-gallery.html">
+                    Fotoğraflar
+                </a></li>
+
+                <li><a href="blog.html">
+                    Blog
+                </a></li>
+        
+                <li><a href="form.html">
+                    Kariyer
+                </a></li>
+        
+                <li style="float: right;"><a href="#" class="active">
+                    İletişim
+                </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="block-post-container box">
+        <div class="form-group ">
+            <label for="Name">Ad</label><br>
+            <input type="text" class="form-control" name="Ad" placeholder="Adınız">
+        </div>
+
+        <div class="form-group ">
+            <label for="Surname">Soyad</label><br>
+            <input type="text" class="form-control" name="Soyad" placeholder="Soyadınız">
+        </div>
+
+        <div class="form-group bo">
+            <label for="D.Tarihi">D.Tarihi</label><br>
+            <input type="date" class="form-control" name="Tarih">
+        </div>
+
+        <div class="form-group">
+            <label for="Telefon Numarası">Telefon Numarası</label><br>
+            <input type="tel" class="form-control" name="Tel No" placeholder="Telefon Numaranız">
+        </div>
+
+        <div class="form-group">
+            <label for="E-Mail">E-Mail</label><br>
+            <input type="email" class="form-control" name="E-Mail" placeholder="E-Mail">
+        </div>
+
+        <div class="form-group">
+            <label for="Message">Açıklama</label><br>
+            <textarea class="form-control" name="Message" ></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="Country">Ülke</label><br>
+            <select class="form-control" name="country" >
+                <option value="Add">Seçiniz</option>
+                <option value="Türkiye">Türkiye</option>
+                <option value="Bosna">Bosna Hersek</option>
+                <option value="Bulgaristan">Bulgaristan</option>
+                <option value="Makedonya">Makedonya</option>
+                <option value="Maceristan">Maceristan</option>
+            </select>
+        </div>
+
+        <div class="btn">
+            <input type="submit" value="Kaydet">
+        </div>
+    </div>
+
+    
+    
+</body>
+
+</html>
